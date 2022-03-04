@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      let input=document.getElementById("input").Value;
+      let h5=document.getElementById("h5")
+      function primeiro(){
+        let valor=input.valueOf;
+        h5.textContent=`Voce comprou ${valor}`;
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+      @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+      @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+      @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+      @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+      *{
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+      font-family: Arial,helvetica,sans-serif; 
+      scroll-behavior: smooth;
+    }
+        body {
+            max-width: 100%;
+            background-color: #dcdcdc;
+            border: 1px solid #000;
+            border-radius: .2em .2em ;
+            font-family: Arial,helvetica,sans-serif;
+
+
+        }
+header{max-height: 100%;background-color: #FFD700;color:#000;text-align: center;border-bottom:1px solid #000;}
+nav{padding: .2rem 0;width: 100%;background-color: #FFFF00;}
+nav>ul{margin: auto;text-align: center;}
+nav>ul>li{display: inline-block;padding: 0 1rem;}
+
+nav>ul>li>.linav{text-decoration: none; font-weight: bold;color:#000;}
+nav>ul>li>:hover{color:#FF0000;display: inline-block;height: 100%;position: relative;}
+nav>ul>li:hover::after{content: "";display: block; width:15rem;height: 30rem; background-color: #000;position: absolute;z-index: 3;top: 32%;margin: auto;border-radius: .2em;box-shadow: .2em .4em transparent;background-image: url("imagem/segundo.jfif");background-size: cover;background-position:top center;float:right;}
+nav>ul>li:hover::after::before{content:"COMIDAS";background-image: url("imagem/segundo.jfif");background-size: 100%;background-position:bottom center;}
+span,h1,h2,#primeiro-para{padding: .4rem 0; text-shadow: .1em .1em #808080; font-family: 'Pacifico', cursivo;}
+h3,h4{text-align: center;padding:.4em 0;
+}
+h4{text-shadow: .1em .1em #808080;font-size: 1rem;}
+main{max-width: 100%;max-height: 100%;background-color: #fff;display:flex;flex-direction:column;align-items: center; background-color: #d3d3d3;}
+article{display:flex; justify-content:space-around;flex-direction: column; align-items: center; grid-gap:.4em;background-color: #fff; box-shadow: .1em .3em  #808080;border-radius: .2em;
+margin:1rem;}
+picture>img{background-color: #fff; width: 60vh;height: 27vw; margin:1rem;box-shadow: .1em .3em  #808080;}
+article>.paragrafo{padding: .4em;text-indent:10px;text-align: center;background-color: #fff; margin:.4em;}
+#section01{background-color: #fff;width: 98%;margin:1rem;border:1px solid #000;border-radius:.4em;box-shadow: .2em .2em  #C0C0C0; padding: 1rem; background-image: url("imagem/quarto.jfif");background-position: center center; background-size: cover;background-attachment: fixed;box-shadow:inherit .2em .2em  #363636;font-weight: bolder;}
+article>.sessao{display: grid;grid-template-columns: auto auto; background-color: #C0C0C0 transparent;}
+.paragrafo{font-size: 15px;text-indent: 20px;margin: .4rem;/*font-family: 'Pacifico', cursivo;*/ font-weight: bolder;}
+section>#segundo-paragrafo{display: block;max-width:20%;max-height:40%;background-color:#363636 ; color:#fff;text-shadow: none;padding:2rem 1rem;font-size: 15px;border-radius: .2em; /*font-family: 'Pacifico', cursivo;*/ font-weight: bolder;font-style: italic; box-shadow: .1em .2em #fff;}
+article>.span01{width: 100%;text-align: center;overflow:hidden;}
+article>.span01>h6,h5{font-size: 1rem;;}
+article>.span01::before,article>.span01::after{content: "";display:block;margin:1rem;max-width: 100%;height: 1px;background-color: #000;}
+article>#divspan{display: flex;flex-direction: row;justify-content: space-around;align-items: center;padding: .8rem 0;margin:1rem 0;}
+article>#divspan>input,button{margin:0 2rem;width: 100%;padding: .2em 1rem;}
+article>#divspan>input{margin:0 2rem;width: 100%;padding: .2em .2rem;}
+article>#divspan>button{background-color:#FFFF00;outline: none; font-weight: bolder;border-radius: .2em;}
+article>#divspan::after{content: "";display:block;margin:1rem;max-width: 100%;height: 1px;background-color: #000;}
+#section01>#segundo-paragrafo>.after01{
+   padding: .4rem 0;
+
+
+}#section01>#segundo-paragrafo>.after01::before{
+  content: "✔️";
+  margin-right: 10px;
+}
+#section02{background-color:#FFD700; text-align: center;padding: 1rem 0; border-top:1px solid #000;}
+div{display: grid;grid-template-columns: 50% 50%; }
+#section02>.link{text-decoration:none;font-weight:bolder;margin:0 .8rem;color:#fff;border-left:.1em solid #fff;padding-left:.8em;text-shadow: .1em .1em #000;}
+section>#star{margin:auto;padding:.2em 0;}
+section>#star>.star{width: 10%;height: 12%;}
+#section02>.link:hover{color:#FF0000;}
+#section03{width: 100%;padding: 1rem 0;color: #000;text-align:center;}
+#section03,.link0{background-color: #FFFF00;border:none;}
+.link0{text-align: center;text-decoration: none;margin: 0 .6rem;font-weight: bolder;color: #000;text-shadow: .1em .1em #fff;}
+footer{background-color:  #FFD700;max-height:20%;color:#f000;text-align:center;font-style:italic;padding:.2rem 0;font-size:1.0em;letter-spacing: 2px;} 
+  section>#star{display: flex;align-items: center; }
+ footer>h4{color:#000;}  
+
+
+ @media(max-width: 850px){
+  h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+    font-size: 10px;
+  }
+  article>.sessao{display: flex;flex-direction: column;align-items: center;}
+  picture>img{width:65vh;height: 40vh;}
+  section>.paragrafo{padding: 1rem;}
+  #section02>.link{font-size:0.7em;font-weight: bold;}
+  div{display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+  article>section{display: flex;flex-direction: row;align-items: center;}
+  #section01{width:90%;}
+  section>#segundo-paragrafo{display: flex;flex-direction: column;align-items: center;max-width:50%;max-height:20%;font-size:1.2em;margin: 1rem 0;}
+  section>#star>.star{}
+  footer{font-size: .9em;letter-spacing: 3px;}
+  .link0{font-size:.6em;}
+  h4{font-size: .8em;}
+   div>#section01>#segundo-paragrafo{padding: 0 4rem;margin: auto;text-align:center; }
+  }
+  div>#section01>#segundo-paragrafo>.after01{font-size: .2em;}
+  section>#star{
+    margin-left: 8rem;
+
+  }
+
+  }section>#star>strong{font-size:2rem;font-weight: bold; }
+  #section01>#segundo-paragrafo>.after01{
+    font-size:.8em; 
+    width: 100%;
+
+   
+
+  }
+  #section01>#segundo-paragrafo{
+
+    margin: auto;
+  }
+  .paragrafo{
+    text-align: center;
+    font-size: .8rem;
+  }
+  nav>ul>li:hover::after{content: "";margin: auto;}
+}
+nav>ul>li{padding: 0 .8rem; font-size: .8em;}
+
+
+}
+    </style>
+</head>
+<title>novo-site</title>
+
+<body>
+    <header>
+        <span><h1>COMIDA</h1><h2>comidas caseiras</h2></span><p id="primeiro-para"> Um Site Dedicado Para Restaurantes Caseiros</p>
+
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" class="linav">PRATOS</a></li>
+        <li><a href="#" class="linav">CARNES</a></li>
+        <li><a href="#" class="linav">BEBIDAS</a></li>
+        <li><a href="#" class="linav">DOCES</a></li>
+      </ul>
+    </nav>
+    <main>
+        <div>
+            <article>
+            <section class="sessao">
+            <picture>
+                 <source media="(min-width:850px)" srcset="imagem/primeiro.jfif" >
+                  <source media="(max-width:560px)" srcset="imagem/segundo.jfif" >
+                  <img src="imagem/terceiro.jpg" alt=""> 
+              </picture>
+              <section>
+                  <h3>PRIMEIRO</h3>
+                <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto.
+                  <p class="paragrafo">Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                </p>
+                  <span id="star"><strong >Vote:</strong><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /></span>
+              </section> 
+                </section>
+                 <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                 <span class="span01">
+                  <h6>PRATOS A PARTIR DE</h6>
+                   <h5 id="h5">R$ 2.50</h5>
+                 </span>
+                <div id="divspan"><input type="number" name="nome" style="width: 10vw;" placeholder="Quantos deseja?" id="input"><button id="button" onclick="dan()"><strong>COMPRA</strong></button></div> 
+            </article>
+       
+            <article>
+                 <section class="sessao">
+               <picture>
+                   <source media="(min-width:850px)" srcset="imagem/primeiro.jfif" >
+                  <source media="(max-width:560px)" srcset="imagem/segundo.jfif" >
+                  <img src="imagem/terceiro.jpg" alt=""> 
+                
+              </picture>
+              <section>
+                  <h3>SEGUNDO</h3>
+                <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto.</p>
+                  <p class="paragrafo">Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                  <span id="star"><strong >Vote:</strong><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /></span>
+              </section> 
+              </section> 
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, magni ipsam illum nisi ex ducimus molestiae cum veniam exercitationem, ab laudantium quasi rerum inventore quidem distinctio aspernatur architecto quisquam pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil assumenda corporis nam impedit cupiditate. Ullam molestias accusamus consequuntur numquam ab maxime accusantium 
+                </p>
+                  <span class="span01">
+                  <h6>PRATOS A PARTIR DE</h6>
+                   <h5>R$ 2.50</h5>
+                 </span>
+                <div id="divspan"><input type="number" name="nome" style="width: 10vw;" placeholder="Quantos deseja?" onclick="dan()"><button><strong>COMPRA</strong></button></div> 
+                 
+            </article>
+            </div>
+            <section id="section01"><span id="segundo-paragrafo"><h4>CARDAPIOS ESPECIAIS</h4>
+              <p class="after01">Comida de Qualidade</p>
+              <p class="after01">Otimo atendimento</p>
+              <p class="after01">Formas de pagamento</p>
+              <p class="after01">Reserve logo seu lugar</p>
+              <p class="after01">Serve se serve.</p></span></section>
+              <div>
+            <article> 
+              <section class="sessao">
+            <picture>
+                    <source media="(min-width:850px)" srcset="imagem/primeiro.jfif" >
+                  <source media="(max-width:560px)" srcset="imagem/segundo.jfif" >
+                  <img src="imagem/terceiro.jpg" alt="">  
+              </picture> 
+                 <section>
+                  <h3>TERCEIRO</h3>
+                <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto.</p>
+                  <p class="paragrafo">Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                    <span id="star"><strong>Vote:</strong><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /></span>
+              </section>
+              </section> 
+                <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                  <span class="span01">
+                  <h6>PRATOS A PARTIR DE</h6>
+                   <h5>R$ 2.50</h5>
+                 </span>
+                <div id="divspan"><input type="number" name="nome" style="width: 10vw;" placeholder="Quantos deseja?" onclick="dan()"><button><strong>COMPRA</strong></button></div> 
+            </article>
+       
+            <article>
+              <section class="sessao">
+               <picture>
+                  <source media="(min-width:850px)" srcset="imagem/primeiro.jfif" >
+                  <source media="(max-width:560px)" srcset="imagem/segundo.jfif" >
+                  <img src="imagem/terceiro.jpg" alt=""> 
+                
+              </picture>
+              <section>
+                  <h3>QUARTO</h3>
+                <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illum dolorem, maxime, placeat aliquid nesciunt, officia tenetur voluptas non laudantium possimus quae delectus corporis? Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto.</p>
+                  <p class="paragrafo">Nihil laborum voluptate qui eius dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae architecto, ex ad reprehenderit amet maxime optio vel officia nulla dicta ea. Quasi voluptates hic sit velit deleniti odit. Nesciunt.</p>
+                    <span id="star"><strong >Vote:</strong><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /><img src="https://img.icons8.com/fluency/48/000000/star.png" class="star" /></span>
+              </section>
+              </section> 
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, magni ipsam illum nisi ex ducimus molestiae cum veniam exercitationem, ab laudantium quasi rerum inventore quidem distinctio aspernatur architecto quisquam pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil assumenda corporis nam impedit cupiditate. Ullam molestias accusamus consequuntur numquam ab maxime accusantium 
+                </p>
+                  <span class="span01">
+                  <h6>PRATOS A PARTIR DE</h6>
+                   <h5>R$ 2.50</h5>
+                 </span>
+                <div id="divspan"><input type="number" name="nome" style="width: 10vw;" placeholder="Quantos deseja?" onclick="dan()"><button><strong>COMPRA</strong></button></div> 
+            </article>
+            </div>
+       
+    </main>
+    <section id="section02" 
+    ><a href="#" class="link">FACEBOOK</a><a href="#" class="link">INSTAGRAM</a><a href="#" class="link">GITHUB</a><a href="#" class="link">WHATSSAP</a>
+    </section>
+    <section id="section03"><a href="#" class="link0">HOMER</a><a href="#" class="link0">OUTRAS COMIDAS </a> <a href="#" class="link0">ALIMENTOS NATURAIS</a> <a href="#" class="link0">CONTATOS</a></section>
+    <footer>      
+        <h4>Site desenvolvido por <strong >&copy;DANILO</strong></h4>
+    </footer>
+</body>
+<script>
+  function dan(){
+    let t=document.getElementById()
+     let t1=document.getElementById()
+  }
+     
+</script>
+</html>
